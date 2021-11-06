@@ -1,0 +1,17 @@
+{
+  "name": "mqtt-wechat",
+  "version": "0.9.0",
+  "main": "index.js",
+  "author": "qintianxiang",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "log4js": "^6.3.0",
+    "mqtt": "^4.2.8",
+    "node-fetch": "2"
+  }
+}
