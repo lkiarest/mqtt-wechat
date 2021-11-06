@@ -9,6 +9,12 @@
 
 ### 配置
 
+创建配置文件：
+
+```
+cp config/index.sample.js config/index.js
+```
+
 在 config/index.js 中配置 mqtt server 和企业微信。
 
 ### 运行
@@ -19,8 +25,11 @@
 // 安装依赖
 yarn
 
-// 运行
+// 运行 debug
 yarn start
+
+// 运行 server
+yarn server
 
 // 访问，端口号可以在 config 文件中配置，也可以在环境变量中增加: PORT=xxx
 // http://localhost:9999
